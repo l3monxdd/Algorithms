@@ -16,10 +16,10 @@ public class Ex19 {
     public void doCondition(int n) {
         int[] arr = randomArray.randomArray(n);
         displayArray.displayArray(arr);
-        System.out.println("\n"+"arr[1] = "+arr[1]);
-        for (int i = 2; i <arr.length; i++) {
+        System.out.println("\n" + "arr[1] = " + arr[1]);
+        for (int i = 2; i < arr.length; i++) {
             if (i % 2 == 0) {
-                System.out.println("i = "+i+" arr[i] = "+arr[i]);
+                System.out.println("i = " + i + " arr[i] = " + arr[i]);
             }
         }
 
