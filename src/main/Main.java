@@ -1,10 +1,6 @@
 package main;
 
-import behaviorImpl.RandBehaviorImpl;
-import behaviorImpl.RandomArrayImpl;
-import exercise.*;
-
-import java.util.*;
+import exercise.Ex21;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +22,6 @@ public class Main {
 //        ex1.result(z,3);
 
 
-
 //        //
 //        System.out.println();
 //        System.out.println("ex2");
@@ -35,8 +30,6 @@ public class Main {
 //        ex2.displayArr(arr);
 //        ex2.doConditional(arr);
 //        //
-
-
 
 
 //        System.out.println();
@@ -62,7 +55,6 @@ public class Main {
 //        //
 
 
-
 //        //
 //        System.out.println();
 //        //5. Дана последовательность натуральных чисел a1, a2, ..., an.
@@ -76,7 +68,6 @@ public class Main {
 //        //
 
 
-
 //        //
 //        System.out.println();
 //        //6. Дана последовательность чисел a1, a2, ..., an.
@@ -86,7 +77,6 @@ public class Main {
 //        ex6.displayArr(ex6Arr);
 //        ex6.findNumericAxis(ex6Arr);
 //        //
-
 
 
 //        //
@@ -100,8 +90,6 @@ public class Main {
 //        //
 
 
-
-
 //        //
 //        System.out.println();
 //        //8. Последовательность действительных чисел оканчивается нулем.
@@ -111,7 +99,6 @@ public class Main {
 //        ex8.displayArray(ex8Arr);
 //        ex8.findConsistency(ex8Arr);
 //        //
-
 
 
 //        //
@@ -125,7 +112,6 @@ public class Main {
 //        //
 
 
-
 //        //
 //        System.out.println();
 //        //10. Даны действительные числа a1, a2, …, an.
@@ -137,7 +123,6 @@ public class Main {
 //        //
 
 
-
 //        //
 //        System.out.println();
 //        //11. Даны целые числа a1 a2, .... аn.
@@ -147,7 +132,6 @@ public class Main {
 //        ex11.displayArray(ex11Arr);
 //        ex11.displayConditionArray(ex11Arr);
 //        //
-
 
 
 //        //
@@ -182,7 +166,6 @@ public class Main {
 //        //
 
 
-
 //        //
 //        //15. Дана последовательность чисел, среди которых имеется один нуль.
 //        // Вывести на печать все числа, включительно до нуля.
@@ -191,7 +174,6 @@ public class Main {
 //        ex15.showArr(arr);
 //        ex15.doConditional(arr);
 //        //
-
 
 
         // неправельна робота метода
@@ -203,7 +185,6 @@ public class Main {
 //        ex16.showArr(arr);
 ////        ex16.printSequencesOfTwoArrayElements(arr,2);
 //        ex16.doConditional(arr,2);
-
 
 
         //
@@ -233,14 +214,17 @@ public class Main {
 //        ex19.doCondition(10);
 
 
-
         //
         //20. Дан одномерный массив A[N]. Найти:  mаx(а2, а4, ..., a2k) + min(а1, а3, …, a2k-1).
-        Ex20 ex20 = new Ex20();
-        ex20.doConditional(8);
+//        Ex20 ex20 = new Ex20();
+//        ex20.doConditional(8);
 
 
-
+        //
+        //21. Дана последовательность действительных чисел a1, a2, ..., аn.
+        // Указать те ее элементы, которые принадлежат отрезку [с, d].
+        Ex21 ex21 = new Ex21();
+        ex21.doConditional(8, 4, 20, 0, 30);
 
 
     }
