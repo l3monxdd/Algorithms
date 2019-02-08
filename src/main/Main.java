@@ -224,7 +224,9 @@ public class Main {
         //21. Дана последовательность действительных чисел a1, a2, ..., аn.
         // Указать те ее элементы, которые принадлежат отрезку [с, d].
         Ex21 ex21 = new Ex21();
-        ex21.doConditional(8, 4, 20, 0, 30);
+//        ex21.doConditional(8, 4, 20, 0, 30);
+        int [] ex21Arr = ex21.randArray(8, 0,30);
+        ex21.doConditional(ex21Arr,10,20);
 
 
     }
